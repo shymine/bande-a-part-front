@@ -1,3 +1,8 @@
+
+.b-align {
+    vertical-align:baseline;
+}
+
 .results {
     display: grid;
     column-gap: 14px;
@@ -14,14 +19,6 @@ input[type="text"] {
     margin-right: 4px;  
     display: inline-block;  
     width: 30%;
-}
-
-button {  
-    padding: 10px;  
-    border: solid 1px var(--primary-color);  
-    background: var(--primary-color);  
-    color: blue;  
-    border-radius: 8px;
 }
 
 @media (min-width: 500px) and (max-width: 768px) {  

@@ -1,14 +1,21 @@
-<main>
-  <header class="brand-name">
-    <img class="brand-logo" src="/favicon.ico" alt="logo" aria-hidden="true" />
-  </header>
-  <section class="content">
-    <app-home></app-home>
-  </section>
+<div class="container-lg">
+
+  <div class="row">
+
+    <div class="col-1">
+      <header class="brand-name">
+        <img class="brand-logo" src="/favicon.ico" alt="logo" aria-hidden="true" />
+      </header>
+    </div>
+
+    <div class="col-11">
+      <app-home></app-home>
+    </div>
+
+  </div>
 
   <router-outlet />
 
-  <section class="content">
-    <app-contacts></app-contacts>
-  </section>
-</main>
+  <app-contacts></app-contacts>
+
+</div>
